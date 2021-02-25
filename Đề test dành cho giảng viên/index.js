@@ -38,7 +38,7 @@ close1.onclick = function() {
 
 // ------------
 
-
+var close2 = document.getElementsByClassName("close2")[0]
 
 var modal2 = document.getElementById("myModal-2");
 
@@ -48,6 +48,8 @@ var btn2 = document.querySelector("#modal-2");
 
 btn2.onclick = function() {
 
+  modal2.style.display ='block';
+
   }
 
 close2.onclick = function() {
@@ -55,21 +57,29 @@ close2.onclick = function() {
   }
 
 
-//   -------------
-var close3 = document.getElementsByClassName("close3")[0];
+// ------------
 
+var close3 = document.getElementsByClassName("close3")[0]
+
+var modal3 = document.getElementById("myModal-3");
 
 // Get the button that opens the modal
 var btn3 = document.querySelector("#modal-3");
 
 
+btn3.onclick = function() {
 
+  modal3.style.display ='block';
+
+  }
 
 close3.onclick = function() {
     modal3.style.display = "none";
   }
-  //   -------------
-var close4 = document.getElementsByClassName("close4")[0];
+
+  // ------------
+
+var close4 = document.getElementsByClassName("close4")[0]
 
 var modal4 = document.getElementById("myModal-4");
 
@@ -78,9 +88,14 @@ var btn4 = document.querySelector("#modal-4");
 
 
 btn4.onclick = function() {
-    modal4.style.display = "block";
+
+  modal4.style.display ='block';
+
   }
 
+close4.onclick = function() {
+    modal4.style.display = "none";
+  }
 
 
 
